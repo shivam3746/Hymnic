@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?android:attr/buttonBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/crowd2"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Enter"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/welcome_string_margin_right_end"
+        android:layout_marginLeft="@dimen/welcome_string_margin_left_start"
+        android:layout_marginRight="@dimen/welcome_string_margin_right_end"
+        android:layout_marginStart="@dimen/welcome_string_margin_left_start"
+        android:layout_marginTop="@dimen/welcome_string_margin_top"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/welcome"
+        android:textSize="@dimen/welcome_string_text_size" />
+</LinearLayout>

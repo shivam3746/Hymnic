@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Final_Player">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/final_palyer_btn1_margin_left_start"
+        android:layout_marginStart="@dimen/final_palyer_btn1_margin_left_start"
+        android:clickable="true"
+        android:contentDescription="@string/btn_1"
+        android:focusable="true"
+        android:scaleType="center"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:contentDescription="@string/btn_2"
+        android:focusable="true"
+        android:src="@drawable/play_button" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/final_player_btn3_margin_top"
+        android:contentDescription="@string/btn_3"
+        android:src="@drawable/pause" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/final_palyer_btn4_margin_end_right"
+        android:layout_marginRight="@dimen/final_palyer_btn4_margin_end_right"
+        android:clickable="true"
+        android:contentDescription="@string/btn_4"
+        android:focusable="true"
+        android:src="@drawable/next" />
+
+    <ImageView
+        android:id="@+id/Replay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/final_player_btn5_margin_bottom"
+        android:clickable="true"
+        android:contentDescription="@string/btn_5"
+        android:focusable="true"
+        android:src="@drawable/replay" />
+
+    <Button
+        android:id="@+id/back_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/back_5_btn_margin_bottom"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/exit_btn"
+        android:textSize="@dimen/final_palyer_exit_btn_text_size" />
+</RelativeLayout>

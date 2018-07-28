@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Hymnic</string>
+    <string name="welcome">Enter the world of utter Harmony</string>
+
+    <string name="option_1">Songs</string>
+    <string name="option_2">Artists</string>
+    <string name="option_3">Albums</string>
+    <string name="option_4">Genres</string>
+    <string name="surprise_btn">Surprise Me</string>
+
+    <string name="btn_1">previous</string>
+    <string name="btn_2">play</string>
+    <string name="btn_3">pause</string>
+    <string name="btn_4">next</string>
+    <string name="btn_5">replay</string>
+    <string name="exit_btn">Exit</string>
+    <string name="back_btn">Back</string>
+
+    <string-array name="array_technology">
+        <item>Sugar - Maroon5</item>
+        <item>Treat Myself - Meghan Trainor</item>
+        <item>Cold Water - Justin Bieber</item>
+        <item>Thunder - Imagine Dragons</item>
+        <item>Girl Like you - Maroon5 ft. Cardi B</item>
+        <item>Attention - Charlie Puth</item>
+        <item>New Rules - Dua Lipa</item>
+        <item>24K Magic - Bruno Mars</item>
+        <item>I Got You - Bebe Rexa</item>
+        <item>Closer - The ChainSmokers</item>
+        <item>Dusk Till Dawn - Zayn Malik</item>
+        <item>Hello - Adele</item>
+    </string-array>
+
+
+    <string name="song_1_detail">Singer- Maroon5\nRelease Date- 13 January , 2015\nGenre- Disco,Funk-pop</string>
+    <string name="song_2_detail">Treat Myself - Meghan Trainor\nRelease Date- 20 July , 2018\nGenre- Pop</string>
+    <string name="song_3_detail">Cold Water - Major Laser ft. Justin Bieber\nRelease Date- 14 September , 2016\nGenre- Electro-pop</string>
+    <string name="song_4_detail">Thunder - Imagine Dragons\nRelease Date- 3 May , 2017\nGenre- Synth-pop</string>
+    <string name="song_5_detail">Girl Like you - Maroon5 ft. Cardi B\nRelease Date- 5 June , 2018\nGenre- Popmusic, Poprock</string>
+    <string name="song_6_detail">Attention - Charlie Puth\nRelease Date- 21 April , 2017\nGenre- Funk-pop</string>
+    <string name="song_7_detail">New Rules - Dua Lipa\nRelease Date- 15 July , 2017\nGenre- Electro-pop</string>
+    <string name="song_8_detail">24K Magic - Bruno Mars\nRelease Date- 18 November , 2016\nGenre- Funk-pop</string>
+    <string name="song_9_detail">I Got You - Bebe Rexha\nRelease Date- 28 October , 2016\nGenre- Electro-pop</string>
+    <string name="song_10_detail">Closer - The ChainSmokers\nRelease Date- 29 July , 2016\nGenre- Pop,Future-bass</string>
+    <string name="song_11_detail">Dusk Till Dawn - Zayn Malik\nRelease Date- 7 September , 2017\nGenre- Pop</string>
+    <string name="song_12_detail">Hello - Adele\nRelease Date- 23 October , 2015\nGenre- Soul,Pop</string>
+</resources>

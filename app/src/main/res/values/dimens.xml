@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="welcome_string_margin_left_start">20dp</dimen>
+    <dimen name="welcome_string_margin_right_end">20dp</dimen>
+    <dimen name="welcome_string_margin_top">150dp</dimen>
+    <dimen name="welcome_string_text_size">23sp</dimen>
+
+    <!--...........................................-->
+    <!--Values for Grid View Item-->
+    <!--...........................................-->
+    <dimen name="grid_view_item_ll_padding">5dp</dimen>
+    <dimen name="grid_view_item_layout_width_height">40dp</dimen>
+    <dimen name="grid_view_item_layout_margin_Right_End">10dp</dimen>
+
+    <!--...........................................-->
+    <!--Values for Songs Detail Activity-->
+    <!--...........................................-->
+    <dimen name="songs_detail_layout_margin_Left_Start">80dp</dimen>
+    <dimen name="songs_detail_layout_margin_Right_End">50dp</dimen>
+    <dimen name="songs_detail_layout_margin_top">240dp</dimen>
+    <dimen name="songs_detail_text_size">18sp</dimen>
+
+    <!--...........................................-->
+    <!--Values for Web Player Activity-->
+    <!--...........................................-->
+    <dimen name="web_player_ll_margin_left_start">70dp</dimen>
+    <dimen name="web_player_img_views_layout_height_width">100dp</dimen>
+    <dimen name="web_player_unified_text_size">22sp</dimen>
+    <dimen name="web_player_text_views_margin_top">30dp</dimen>
+    <dimen name="web_player_btn_layout_height">50dp</dimen>
+    <dimen name="web_player_btn_layout_width">125dp</dimen>
+    <dimen name="web_player_btn_text_size">20sp</dimen>
+    <dimen name="web_player_btn_margin_bottom">110dp</dimen>
+
+    <!--...........................................-->
+    <!--Values for My songs Activity-->
+    <!--...........................................-->
+    <dimen name="mysongs_layout_margin_left_start">10dp</dimen>
+    <dimen name="mysongs_layout_margin_top">5dp</dimen>
+    <dimen name="mysongs_padding">2dp</dimen>
+
+    <!--...........................................-->
+    <!--Values for Final Player Activity-->
+    <!--...........................................-->
+    <dimen name="final_palyer_btn1_margin_left_start">45dp</dimen>
+    <dimen name="final_player_btn3_margin_top">135dp</dimen>
+    <dimen name="final_palyer_btn4_margin_end_right">45dp</dimen>
+    <dimen name="final_player_btn5_margin_bottom">135dp</dimen>
+    <dimen name="final_player_exit_btn_margin_bottom">56dp</dimen>
+    <dimen name="final_palyer_exit_btn_text_size">18sp</dimen>
+    <dimen name="back_5_btn_margin_bottom">5dp</dimen>
+
+    <!--...........................................-->
+    <!--Values for Artist Options Activity-->
+    <!--...........................................-->
+    <dimen name="artist_options_padding">5dp</dimen>
+    <dimen name="artist_options_spacing_horizontal_vertical">10dp</dimen>
+
+    <!--...........................................-->
+    <!--Values Back Button-->
+    <!--...........................................-->
+    <dimen name="back_btn_text_size">18sp</dimen>
+    <dimen name="back_btn_layout_margin_bottom">26dp</dimen>
+
+
+
+</resources>

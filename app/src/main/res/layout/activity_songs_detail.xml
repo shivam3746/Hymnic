@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".songs_detail">
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/songs_detail_layout_margin_Left_Start"
+        android:layout_marginStart="@dimen/songs_detail_layout_margin_Left_Start"
+        android:layout_marginEnd="@dimen/songs_detail_layout_margin_Right_End"
+        android:layout_marginRight="@dimen/songs_detail_layout_margin_Right_End"
+        android:layout_marginTop="@dimen/songs_detail_layout_margin_top"
+        android:textSize="@dimen/songs_detail_text_size" />
+
+    <Button
+        android:id="@+id/back_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/back_btn_layout_margin_bottom"
+        android:text="@string/back_btn"
+        android:textSize="@dimen/back_btn_text_size"
+        android:background="@color/colorPrimary"/>
+
+</RelativeLayout>

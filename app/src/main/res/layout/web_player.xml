@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/web_player_ll_margin_left_start"
+        android:layout_marginStart="@dimen/web_player_ll_margin_left_start"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Singles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/web_player_text_views_margin_top"
+            android:text="@string/option_1"
+            android:textSize="@dimen/web_player_unified_text_size" />
+
+        <ImageView
+            android:id="@+id/song_list"
+            android:layout_width="@dimen/web_player_img_views_layout_height_width"
+            android:layout_height="@dimen/web_player_img_views_layout_height_width"
+            android:contentDescription="@string/option_1"
+            android:src="@drawable/music_logo" />
+
+        <TextView
+            android:id="@+id/Artists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/web_player_text_views_margin_top"
+            android:text="@string/option_2"
+            android:textSize="@dimen/web_player_unified_text_size" />
+
+        <ImageView
+            android:id="@+id/artist_view"
+            android:layout_width="@dimen/web_player_img_views_layout_height_width"
+            android:layout_height="@dimen/web_player_img_views_layout_height_width"
+            android:contentDescription="@string/option_2"
+            android:src="@drawable/music_artist" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/web_player_ll_margin_left_start"
+        android:layout_marginRight="@dimen/web_player_ll_margin_left_start"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/web_player_text_views_margin_top"
+            android:text="@string/option_3"
+            android:textSize="@dimen/web_player_unified_text_size" />
+
+        <ImageView
+            android:layout_width="@dimen/web_player_img_views_layout_height_width"
+            android:layout_height="@dimen/web_player_img_views_layout_height_width"
+            android:contentDescription="@string/option_3"
+            android:src="@drawable/music_album" />
+
+        <TextView
+            android:id="@+id/Genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/web_player_text_views_margin_top"
+            android:text="@string/option_4"
+            android:textSize="@dimen/web_player_unified_text_size" />
+
+        <ImageView
+            android:id="@+id/Genre_image"
+            android:layout_width="@dimen/web_player_img_views_layout_height_width"
+            android:layout_height="@dimen/web_player_img_views_layout_height_width"
+            android:contentDescription="@string/option_4"
+            android:src="@drawable/music_genre" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/play_song"
+        android:layout_width="@dimen/web_player_btn_layout_width"
+        android:layout_height="@dimen/web_player_btn_layout_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/web_player_btn_margin_bottom"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/surprise_btn"
+        android:textAllCaps="false"
+        android:textSize="@dimen/web_player_btn_text_size" />
+
+    <Button
+        android:id="@+id/back_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/back_btn_layout_margin_bottom"
+        android:text="@string/back_btn"
+        android:textSize="@dimen/back_btn_text_size"
+        android:background="@color/colorPrimary"/>
+
+</RelativeLayout>

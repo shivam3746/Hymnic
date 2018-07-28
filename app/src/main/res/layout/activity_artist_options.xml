@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/artist_options_padding"
+    android:paddingLeft="@dimen/artist_options_padding"
+    android:paddingRight="@dimen/artist_options_padding"
+    android:paddingTop="@dimen/artist_options_padding"
+    tools:context=".WebPlayer">
+
+    <GridView
+        android:id="@+id/simpleGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="@dimen/artist_options_spacing_horizontal_vertical"
+        android:numColumns="3"
+        android:verticalSpacing="@dimen/artist_options_spacing_horizontal_vertical" />
+    <Button
+        android:id="@+id/back_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/back_btn_layout_margin_bottom"
+        android:text="@string/back_btn"
+        android:textSize="@dimen/back_btn_text_size"
+        android:background="@color/colorPrimary"/>
+</RelativeLayout>

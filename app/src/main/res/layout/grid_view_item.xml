@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/grid_view_item_ll_padding">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="@dimen/grid_view_item_layout_width_height"
+        android:layout_height="@dimen/grid_view_item_layout_width_height"
+        android:layout_marginEnd="@dimen/grid_view_item_layout_margin_Right_End"
+        android:layout_marginRight="@dimen/grid_view_item_layout_margin_Right_End"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/music_artist" />
+</LinearLayout>
+
